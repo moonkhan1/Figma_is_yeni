@@ -1,12 +1,19 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.container{
+    position: relative;
+}
 
 
+
+/* AYXAN----HISSE */
 .altinci-section{
     background-color: #9DC9C8;
     border: 1px solid #9DC9C8;
@@ -687,4 +694,4 @@
         font-size: 10px;
         line-height: 101.38%;
     }
-}
+
