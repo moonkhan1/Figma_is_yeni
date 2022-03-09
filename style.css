@@ -11,9 +11,382 @@
     position: relative;
 }
 
+/* ZAKIR - HISSE------------------------------------------------------------------------------------------------------------ */
+
+/*DESKTOP MODE*/
+
+.z-container {
+    font-family: 'Roboto';
+}
+
+.z-container h1 {
+    position: absolute;
+    width: 365px;
+    height: 93px;
+    left: 121px;
+    top: 1040px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+
+.z-container p {
+    position: absolute;
+    width: 662px;
+    height: 374px;
+    left: 121px;
+    top: 1151px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.z-picture1 {
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 973px;
+    top: 1175px;
+}
+
+.z-ellipse1 {
+    position: absolute;
+    width: 366px;
+    height: 59px;
+    border-radius: 366%;
+    left: 947px;
+    top: 1460px;
+    z-index: -1;
+    background: #EFEFEF;
+}
+
+.z-picture2 {
+    position: absolute;
+    width: 232px;
+    height: 203px;
+    left: 121px;
+    top: 1619px;
+}
+
+.z-ellipse2 {
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    border-radius: 189%;
+    left: 154px;
+    top: 1806px;
+    z-index: -1;
+    background: #EFEFEF;
+    }
+
+.z-section2 h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    width: 150px;
+    top: 1689px;
+    position: absolute;
+    height: 39px;
+}
+
+.z-section2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    top: 1729px;
+}
+
+.z-one h2 {
+    left: 485px;
+}
+
+.z-two h2 {
+    left: 730px;
+    }
+
+.z-three h2 {
+    left: 973px;
+}
+
+.z-one p {
+    left: 485px;
+}
+
+.z-two p {
+    left: 730px;   
+}
+
+.z-three p {
+    left: 973px;
+}
+
+/*TABLET MODE*/
+@media (max-width: 834px) {
+    .z-container {
+        font-family: 'Roboto';
+    }
+    
+    .z-container h1 {
+        position: absolute;
+        width: 211.4px;
+        height: 53.86px;
+        left: 70.08px;
+        top: 612.17px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    
+    .z-container p {
+        position: absolute;
+        width: 383.41px;
+        height: 216.61px;
+        left: 70.08px;
+        top: 676.46px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    
+    .z-picture1 {
+        position: absolute;
+        width: 181.86px;
+        height: 182.44px;
+        left: 563.53px;
+        top: 690.36px;
+
+    }
+    
+    .z-ellipse1 {
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+        left: 548.47px;
+        top: 855.42px;
+        background: #EFEFEF;
+    }
+    
+    .z-picture2 {
+        position: absolute;
+        width: 134.37px;
+        height: 117.57px;
+        left: 70.08px;
+        top: 947.51px;
+    }
+    
+    .z-ellipse2 {
+        position: absolute;
+        width: 109.46px;
+        height: 18.53px;
+        left: 89.19px;
+        top: 1055.81px;
+        background: #EFEFEF;
+    }
+    
+    .z-section2 h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+        width: 86.88px;
+        top: 988.05px;
+        position: absolute;
+        height: 22.59px;
+    }
+    
+    .z-section2 p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        top: 1011.22px;
+    }
+    
+    .z-one h2 {
+        left: 280.9px;
+    }
+    
+    .z-two h2 {
+        left: 422.79px;
+    }
+    
+    .z-three h2 {
+        left: 563.53px;
+    }
+    
+    .z-one p {
+        left: 280.9px;
+    }
+    
+    .z-two p {
+        left: 423px;
+    }
+    
+    .z-three p {
+        left: 563.53px;
+    }
+}
+
+/*MOBILE MODE*/
+@media (max-width: 375px) {
+    .z-container {
+        font-family: 'Roboto';
+    }
+    
+    .z-container h1 {
+        position: absolute;
+        width: 170.08px;
+        height: 43.34px;
+        left: 36px;
+        top: 636px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+    
+    .z-container p {
+        position: absolute;
+        width: 308.47px;
+        height: 174.27px;
+        left: 36px;
+        top: 687.72px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    
+    .z-picture1 {
+        position: absolute;
+        width: 146.32px;
+        height: 146.78px;
+        left: 101px;
+        top: 918px;
+    }
+    
+    .z-ellipse1 {
+        position: absolute;
+        width: 170.55px;
+        height: 27.49px;
+        left: 101px;
+        top: 1050.8px;
+        background: #EFEFEF;
+    }
+    
+    .z-picture2 {
+        display: none;
+    }
+    
+    .z-ellipse2 {
+        display: none;
+    }
+
+    .z-section2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .z-one h2 {
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 1124px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .z-two h2 {
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 154.16px;
+        top: 1124px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .z-three h2 {
+        position: absolute;
+        width: 69.9px;
+        height: 18.17px;
+        left: 35px;
+        top: 1195px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .z-one p {
+        position: absolute;
+        width: 86px;
+        height: 18px;
+        left: 35px;
+        top: 1143px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
+    
+    .z-two p {
+        position: absolute;
+        width: 86.89px;
+        height: 18.5px;
+        left: 154.33px;
+        top: 1142.46px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
+    
+    .z-three p {
+        position: absolute;
+        width: 76px;
+        height: 18px;
+        left: 35px;
+        top: 1214px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
+}
 
 
-/* AYXAN----HISSE */
+/* AYXAN----HISSE----------------------------------------------------------------------------------------------------------------- */
 .altinci-section{
     background-color: #9DC9C8;
     border: 1px solid #9DC9C8;
