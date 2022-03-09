@@ -1,0 +1,64 @@
+.dorduncu-hisse-1{
+position: absolute;
+width: 667px;
+height: 93px;
+font-weight: bold;
+font-size: 55px;
+}
+.dorduncu-hisse-sol{
+position: absolute;
+width: 150px;
+height: 39px;
+left: 122px;
+top: 2182px;
+font-weight: bold;
+font-size: 25px;
+}
+.dorduncu-hisse-orta{
+position: absolute;
+width: 214px;
+height: 39px;
+left: 467px;
+top: 2182px;
+font-weight: bold;
+font-size: 25px;
+}
+.dorduncu-hisse-sag{
+position: absolute;
+width: 150px;
+height: 39px;
+left: 851px;
+top: 2182px;
+font-weight: bold;
+font-size: 25px;
+}
+.dorduncu-hisse-metn1{
+position: absolute;
+width: 223px;
+height: 39px;
+left: 122px;
+top: 2222px;
+font-weight: normal;
+font-size: 18px;
+font-style: normal;
+}
+.dorduncu-hisse-metn2{
+position: absolute;
+width: 271px;
+height: 109px;
+left: 467px;
+top: 2222px;
+font-weight: normal;
+font-size: 18px;
+font-style: normal;
+}
+.dorduncu-hisse-metn3{
+    position: absolute;
+    width: 245px;
+    height: 39px;
+    left: 851px;
+    top: 2222px;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+}
