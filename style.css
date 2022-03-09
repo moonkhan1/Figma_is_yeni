@@ -257,7 +257,7 @@
     right: 1088px;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1280px) {
     .altinci-section{
         position: relative;
         width: 834px;
@@ -478,7 +478,7 @@
 
 }
 
-@media(max-width: 375px){
+@media(max-width: 992px){
     .altinci-section{
         position: relative;
         width: 375px;
