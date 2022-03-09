@@ -1,1 +1,0 @@
-# Figma_is_yeni
