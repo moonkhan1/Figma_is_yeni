@@ -1,0 +1,701 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ilk-dord-hisse{
+    position: relative;
+}
+
+
+
+/* AYXAN----HISSE */
+.altinci-section{
+    background-color: #9DC9C8;
+    border: 1px solid #9DC9C8;
+    position: relative;
+    width: 1440px;
+    height: 780px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.altinci-section-basliq{
+    position: absolute;
+    width: 908px;
+    height: 66px;
+    color: #000000;
+    /* font-family: Roboto Slab; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    left: 122px;
+    top: 179px;
+    right: 410px;
+    bottom: 535px;
+}
+
+.altinci-section-paraqraf1{
+    color: #000000;
+    position: absolute;
+    width: 170px;
+    height: 32px;
+    left: 122px;
+    top: 299px;
+    right: 1148px;
+    bottom: 449px;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+}
+
+.qiymet{
+    color: #000000;
+    position: absolute;
+    width: 481px;
+    height: 181px;
+    left: 121px;
+    top: 329px;
+    right: 837px;
+    bottom: 270px;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+}
+
+
+.blok1-basliq{
+    position: absolute;
+    width: 294px;
+    height: 32px;
+    top: 484px;
+    bottom: 364px;
+    left: 122px;
+    right: 1024px;
+    font-weight: 400;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.blok1-metn{
+    position: absolute;
+    width: 294px;
+    height: 70px;
+    top:525px;
+    bottom: 185px;
+    left: 122px;
+    right: 1024px;
+    font-weight: 400;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 9px;
+}
+.blok2-basliq{
+    position: absolute;
+    width: 294px;
+    height: 32px;
+    top:484px;
+    bottom: 264px;
+    left: 486px;
+    right: 632px;
+    font-weight: 400;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.blok2-metn{
+    position: absolute;
+    margin-top: 9px;
+    width: 294px;
+    height: 70px;
+    top:525px;
+    bottom: 185px;
+    left: 486px;
+    right: 660px;
+    font-weight: 400;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+.yeddinci-section{
+    position: relative;
+    width: 1440px;
+    height: 390px;
+    background-color: #000000;
+}
+.pic1{
+    position: absolute;
+    width: 115px;
+    height: 68px;
+    left: 121px;
+    top: 50px;
+    bottom: 272px;
+    right: 1203px;
+}
+
+.pic2{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 121px;
+    top: 148px;
+    bottom: 209px;
+    right: 1285px;
+}
+.pic3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 173px;
+    top:148px;
+    bottom: 210px;
+    right: 1235px;
+    /* margin-left: 18px;
+    margin-right: 21px; */
+}
+
+.pic4{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 226px;
+    top:146px;
+    bottom: 209px;
+    right: 1179px;
+    /* margin-left: 21px;
+    margin-right: 25px; */
+
+}
+
+.pic5{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 286px;
+    top: 147px;
+    bottom: 209px;
+    right: 1120px;
+}
+
+.pic6{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 976px;
+    top: 54px;
+    bottom: 309px;
+    right: 437px;
+}
+.nomre{
+    position: absolute;
+    color: #FFFFFF;
+    width: 230px;
+    height: 40px;
+    left: 1025px;
+    top: 59px;
+    bottom: 291px;
+    right: 185px;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.pic7{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 976px;
+    top: 106px;
+    bottom: 266px;
+    right: 437px;
+}
+
+.mail{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    width: 269px;
+    height: 40px;
+    left: 1025px;
+    top: 102px;
+    bottom: 248px;
+    right:146px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    width: 230px;
+    height: 40px;
+    left: 122px;
+    top: 327px;
+    bottom: 23px;
+    right: 1088px;
+}
+
+@media (max-width: 1280px) {
+    .altinci-section{
+        position: relative;
+        width: 90%;
+        height: 451.75px;
+        left: 0px;
+        margin: 0 auto;
+    }
+    .altinci-section-basliq{
+        position: absolute;
+        width: 525.88px;
+        height: 38.23px;
+        top:103.67px;
+        bottom: 309.85px;
+        right: 237.46px;
+        left: 70.66px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    .altinci-section-paraqraf1{
+        position: absolute;
+        width: 98.46px;
+        height: 18.53px;
+        top:173.17px;
+        bottom: 260.05px;
+        right: 664.88px;
+        left: 70.66px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .qiymet{
+        position: absolute;
+        width: 278.58px;
+        height: 104.83px;
+        top: 191.25px;
+        bottom: 213.5px;
+        right: 563px;
+        left: 70.66px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+
+    .blok1-basliq{
+        position: absolute;
+        width: 170.28px;
+        height: 18.53px;
+        top:280.32px;
+        bottom: 152.9px;
+        left: 70.66px;
+        right: 593.07px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .blok1-metn{
+        position: absolute;
+        width: 170.28px;
+        height: 40.54px;
+        top:304.06px;
+        bottom: 107.15px;
+        left: 70.66px;
+        right: 593.07px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .blok2-basliq{
+        position: absolute;
+        width: 186.49px;
+        height: 18.53px;
+        top:280.32px;
+        bottom: 152.9px;
+        left: 281.47px;
+        right: 366.03px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .blok2-metn{
+        position: absolute;
+        width: 170.28px;
+        height: 40.54px;
+        top:304.06px;
+        bottom: 107.15px;
+        left: 281.47px;
+        right: 382.25px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .yeddinci-section{
+        position: relative;
+        width: 90%;
+        height: 225.88px;
+        left: 0px;
+        margin: 0 auto;
+    }
+    .pic1{
+        position: absolute;
+        width: 66.6px;
+        height: 39.38px;
+        top: 28.96px;
+        bottom: 157.53px;
+        right: 696.74px;
+        left: 70.66px;
+    }
+    .pic2{
+        position: absolute;
+        width: 19.11px;
+        height: 19.11px;
+        top: 85.72px;
+        right: 744.23px;
+        bottom: 121.05px;
+        left: 70.66px;
+    }
+    .pic3{
+        position: absolute;
+        width: 18.53px;
+        height: 18.53px;
+        top: 85.72px;
+        bottom: 121.62px;
+        right: 715.27px;
+        left: 100.2px;
+    }
+    .pic4{
+        position: absolute;
+        width: 20.27px;
+        height: 20.27px;
+        top: 84.56px;
+        bottom: 121.05px;
+        right: 682.84px;
+        left: 130.89px;
+    }
+    .pic5{
+        position: absolute;
+        width: 19.69px;
+        height: 19.69px;
+        top: 85.14px;
+        bottom: 121.05px;
+        right: 648.67px;
+        left: 165.64px;
+    }
+    .pic6{
+        position: absolute;
+        width: 15.64px;
+        height: 15.64px;
+        top: 31.28px;
+        right: 253.1px;
+        bottom: 178.96px;
+        left: 565.27px;
+    }
+    .nomre{
+        position: absolute;
+        width: 133.21px;
+        height: 23.17px;
+        top: 34.17px;
+        right: 107.15px;
+        bottom: 168.54px;
+        left: 593.65px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .pic7{
+        position: absolute;
+        width: 15.64px;
+        height: 10.43px;
+        top: 61.39px;
+        bottom: 154.06px;
+        right: 253.1px;
+        left: 565.27px;
+    }
+    .mail{
+        position: absolute;
+        width: 155.8px;
+        height: 23.17px;
+        top: 59.07px;
+        bottom: 143.63px;
+        right: 84.56px;
+        left: 593.65px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .copyright{
+        position: absolute;
+        width: 133.21px;
+        height: 23.17px;
+        left: 70.66px;
+        top: 189.39px;
+        bottom: 13.32px;
+        right: 630.13px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+
+
+}
+
+@media(max-width: 992px){
+    .altinci-section{
+        position: relative;
+        width: 90%;
+        height: 363px;
+        left: 0px;
+        margin: 0 auto;
+    }
+    .altinci-section-basliq{
+        position: absolute;
+        width: 224px;
+        height: 63px;
+        left: 43px;
+        top: 62px;
+        bottom: 238px;
+        right: 108px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+    }
+    .altinci-section-paraqraf1{
+        position: absolute;
+        width: 79.22px;
+        height: 14.91px;
+        left: 42.85px;
+        top: 147.33px;
+        bottom: 200.76px;
+        right: 252.94px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .qiymet{
+        position: absolute;
+        width: 224.13px;
+        height: 84.34px;
+        left: 42.85px;
+        top: 161.3px;
+        bottom: 117.35px;
+        right: 108.02px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+    .blok1-basliq{
+        position: absolute;
+        width: 137px;
+        height: 14.91px;
+        top: 233.53px;
+        left: 43.85px;
+        bottom: 114.56px;
+        right: 194.16px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .blok1-metn{
+        position: absolute;
+        width: 138px;
+        height: 47px;
+        left: 43px;
+        right: 194px;
+        top: 253px;
+        bottom: 63px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .blok2-basliq{
+        position: absolute;
+        width: 151px;
+        height: 14px;
+        left: 212px;
+        right: 12px;
+        top: 234px;
+        bottom: 115px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .blok2-metn{
+        position: absolute;
+        width: 140px;
+        height: 38px;
+        left: 212px;
+        right: 23px;
+        top: 253px;
+        bottom: 72px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .yeddinci-section{
+        position: relative;
+        width: 90%;
+        height: 251px;
+        left: 0px;
+        margin: 0 auto;
+    }
+    .pic1{
+        position: absolute;
+        width: 53.59px;
+        height: 31.69px;
+        left: 37.85px;
+        top: 23.3px;
+        right: 283.56px;
+        bottom: 196.02px;
+    }
+    .pic2{
+        position: absolute;
+        width: 15.38px;
+        height: 15.38px;
+        left: 37.85px;
+        top: 68.96px;
+        bottom: 166.66px;
+        right: 321.77px;
+    }
+    .pic3{
+        position: absolute;
+        width: 14.91px;
+        height: 14.91px;
+        left: 61.61px;
+        top: 68.96px;
+        bottom: 167.12px;
+        right: 298.48px;
+    }
+    .pic4{
+        position: absolute;
+        width: 16.31px;
+        height: 16.31px;
+        left: 86.31px;
+        top: 68.03px;
+        bottom: 166.66px;
+        right: 272.38px;
+    }
+    .pic5{
+        position: absolute;
+        width: 15.84px;
+        height: 15.84px;
+        left: 114.27px;
+        top: 68.5px;
+        bottom: 166.66px;
+        right: 244.89px;
+    }
+    .pic6{
+        position: absolute;
+        width: 12.58px;
+        height: 12.58px;
+        left: 38px;
+        top: 132px;
+        bottom: 106.42px;
+        right: 324.42px;
+    }
+    .nomre{
+        position: absolute;
+        width: 107.17px;
+        height: 18.64px;
+        left: 60.83px;
+        top: 134.33px;
+        bottom: 98.03px;
+        right: 206.99px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .pic7{
+        position: absolute;
+        width: 12.58px;
+        height: 8.39px;
+        left: 38px;
+        top: 156.23px;
+        bottom: 86.38px;
+        right: 324.42px;
+    }
+    .mail{
+        position: absolute;
+        width: 125.35px;
+        height: 18.64px;
+        left: 60.83px;
+        top: 154.37px;
+        bottom: 77.99px;
+        right: 188.82px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .copyright{
+        position: absolute;
+        width: 141px;
+        height: 19px;
+        left: 38px;
+        top: 222px;
+        bottom: 10px;
+        right: 196px;
+        font-family: Roboto slab;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+}
