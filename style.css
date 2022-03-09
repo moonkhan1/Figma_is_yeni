@@ -260,9 +260,10 @@
 @media (max-width: 1280px) {
     .altinci-section{
         position: relative;
-        width: 834px;
+        width: 90%;
         height: 451.75px;
         left: 0px;
+        margin: 0 auto;
     }
     .altinci-section-basliq{
         position: absolute;
@@ -365,9 +366,10 @@
     }
     .yeddinci-section{
         position: relative;
-        width: 834px;
+        width: 90%;
         height: 225.88px;
         left: 0px;
+        margin: 0 auto;
     }
     .pic1{
         position: absolute;
@@ -481,9 +483,10 @@
 @media(max-width: 992px){
     .altinci-section{
         position: relative;
-        width: 375px;
+        width: 90%;
         height: 363px;
         left: 0px;
+        margin: 0 auto;
     }
     .altinci-section-basliq{
         position: absolute;
@@ -585,9 +588,10 @@
     }
     .yeddinci-section{
         position: relative;
-        width: 375px;
+        width: 90%;
         height: 251px;
         left: 0px;
+        margin: 0 auto;
     }
     .pic1{
         position: absolute;
