@@ -1,64 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.iki{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    margin-left: 8.403vw;
+}
+.format{
+    width: 46.319vw;
+    height: 6.458vw;
+    margin-left: 0;
+    margin-top: 11.25vw;
+}
 .dorduncu-hisse-1{
-position: absolute;
-width: 667px;
-height: 93px;
-font-weight: bold;
-font-size: 55px;
+    font-weight: 700;
+    font-size: 3.819vw;
+}
+.cedvel{
+    display: flex; 
+    margin-top: 6.181vw;
+}
+.divsol{
+    margin-right: 8.472vw;
+}
+.divorta{
+    margin-right: 7.847vw;
 }
 .dorduncu-hisse-sol{
-position: absolute;
-width: 150px;
-height: 39px;
-left: 122px;
-top: 2182px;
-font-weight: bold;
-font-size: 25px;
-}
-.dorduncu-hisse-orta{
-position: absolute;
-width: 214px;
-height: 39px;
-left: 467px;
-top: 2182px;
-font-weight: bold;
-font-size: 25px;
-}
-.dorduncu-hisse-sag{
-position: absolute;
-width: 150px;
-height: 39px;
-left: 851px;
-top: 2182px;
-font-weight: bold;
-font-size: 25px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #1E4681;
+    margin: 0;
+    width: 10.417vw;
+    height: 2.708vw;
 }
 .dorduncu-hisse-metn1{
-position: absolute;
-width: 223px;
-height: 39px;
-left: 122px;
-top: 2222px;
-font-weight: normal;
-font-size: 18px;
-font-style: normal;
+    margin: 0;
+    width: 15.486vw;
+    height: 2.708vw;
+}
+.dorduncu-hisse-orta{
+    font-weight: 700;
+    font-size: 25px;
+    color: #1E4681;
+    margin: 0;
+    width: 14.861vw;
+    height: 2.708vw;
 }
 .dorduncu-hisse-metn2{
-position: absolute;
-width: 271px;
-height: 109px;
-left: 467px;
-top: 2222px;
-font-weight: normal;
-font-size: 18px;
-font-style: normal;
+    margin: 0;
+    width: 18.819vw;
+    height: 7.569vw;
+}
+.dorduncu-hisse-sag{
+    font-weight: 700;
+    font-size: 1.736vw;
+    color: #1E4681;
+    margin:0;
+    width: 10.417vw;
+    height: 2.708vw;
 }
 .dorduncu-hisse-metn3{
-    position: absolute;
-    width: 245px;
-    height: 39px;
-    left: 851px;
-    top: 2222px;
-    font-weight: normal;
-    font-size: 18px;
-    font-style: normal;
+    margin:0;
+    width: 17.014vw;
+    height: 2.708vw;
+}
+.sonluq{
+    width: 46.319vw;
+    height: 6.458vw;
+    margin-top: 17.292vw;
+}
+.dorduncu-hisse-2{
+    font-weight: 700;
+    font-size: 55px;
+}
+.siyahi{
+    width: 45.972vw;
+    height: 25.972vw;
+    margin-top: 1.458vw;
 }
