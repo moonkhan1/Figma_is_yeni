@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-.ilk-dord-hisse{
+.container{
     position: relative;
 }
 
@@ -133,7 +133,11 @@
 }
 
 /*TABLET MODE*/
-@media (max-width: 834px) {
+@media (max-width: 1280px) {
+    .z-container-for-all{
+        width: 90%;
+        margin: 0 auto;
+    }
     .z-container {
         font-family: 'Roboto';
     }
@@ -247,7 +251,11 @@
 }
 
 /*MOBILE MODE*/
-@media (max-width: 375px) {
+@media (max-width: 992px) {
+    .z-container-for-all{
+        width: 90%;
+        margin: 0 auto;
+    }
     .z-container {
         font-family: 'Roboto';
     }
@@ -392,10 +400,11 @@
 .altinci-section{
     background-color: #9DC9C8;
     border: 1px solid #9DC9C8;
-    position: relative;
+    position: absolute;
     width: 1440px;
     height: 780px;
     font-family: 'Roboto Slab', serif;
+    top: 5405px;
 }
 
 .altinci-section-basliq{
@@ -508,10 +517,11 @@
 
 
 .yeddinci-section{
-    position: relative;
+    position: absolute;
     width: 1440px;
     height: 390px;
     background-color: #000000;
+    top: 6185px;
 }
 .pic1{
     position: absolute;
@@ -634,11 +644,12 @@
 
 @media (max-width: 1280px) {
     .altinci-section{
-        position: relative;
+        position: absolute;
         width: 90%;
         height: 451.75px;
         left: 0px;
         margin: 0 auto;
+        top: 3122.75px;
     }
     .altinci-section-basliq{
         position: absolute;
@@ -740,11 +751,12 @@
         line-height: 101.38%;
     }
     .yeddinci-section{
-        position: relative;
+        position: absolute;
         width: 90%;
         height: 225.88px;
         left: 0px;
         margin: 0 auto;
+        top: 3574.5px;
     }
     .pic1{
         position: absolute;
@@ -857,11 +869,12 @@
 
 @media(max-width: 992px){
     .altinci-section{
-        position: relative;
+        position: absolute;
         width: 90%;
         height: 363px;
         left: 0px;
         margin: 0 auto;
+        top: 3910px;
     }
     .altinci-section-basliq{
         position: absolute;
@@ -962,11 +975,12 @@
         line-height: 101.38%;
     }
     .yeddinci-section{
-        position: relative;
+        position: absolute;
         width: 90%;
         height: 251px;
         left: 0px;
         margin: 0 auto;
+        top: 4273px;
     }
     .pic1{
         position: absolute;
