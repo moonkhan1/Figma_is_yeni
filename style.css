@@ -400,16 +400,15 @@
 .altinci-section{
     background-color: #9DC9C8;
     border: 1px solid #9DC9C8;
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 780px;
     font-family: 'Roboto Slab', serif;
-    top: 5405px;
 }
 
 .altinci-section-basliq{
     position: absolute;
-    width: 908px;
+    width: 66vw;
     height: 66px;
     color: #000000;
     /* font-family: Roboto Slab; */
@@ -426,7 +425,7 @@
 .altinci-section-paraqraf1{
     color: #000000;
     position: absolute;
-    width: 170px;
+    width: 12.44vw;
     height: 32px;
     left: 122px;
     top: 299px;
@@ -442,7 +441,7 @@
 .qiymet{
     color: #000000;
     position: absolute;
-    width: 481px;
+    width: 35vw;
     height: 181px;
     left: 121px;
     top: 329px;
@@ -458,7 +457,7 @@
 
 .blok1-basliq{
     position: absolute;
-    width: 294px;
+    width: 21.52vw;
     height: 32px;
     top: 484px;
     bottom: 364px;
@@ -473,7 +472,7 @@
 
 .blok1-metn{
     position: absolute;
-    width: 294px;
+    width: 21.52vw;
     height: 70px;
     top:525px;
     bottom: 185px;
@@ -487,7 +486,7 @@
 }
 .blok2-basliq{
     position: absolute;
-    width: 294px;
+    width: 21.52vw;
     height: 32px;
     top:484px;
     bottom: 264px;
@@ -503,7 +502,7 @@
 .blok2-metn{
     position: absolute;
     margin-top: 9px;
-    width: 294px;
+    width: 21.52vw;
     height: 70px;
     top:525px;
     bottom: 185px;
@@ -517,15 +516,14 @@
 
 
 .yeddinci-section{
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 390px;
     background-color: #000000;
-    top: 6185px;
 }
 .pic1{
     position: absolute;
-    width: 115px;
+    width: 8.41vw;
     height: 68px;
     left: 121px;
     top: 50px;
@@ -535,7 +533,7 @@
 
 .pic2{
     position: absolute;
-    width: 33px;
+    width: 2.41vw;
     height: 33px;
     left: 121px;
     top: 148px;
@@ -544,7 +542,7 @@
 }
 .pic3{
     position: absolute;
-    width: 32px;
+    width: 2.41vw;
     height: 32px;
     left: 173px;
     top:148px;
@@ -556,7 +554,7 @@
 
 .pic4{
     position: absolute;
-    width: 35px;
+    width: 2.41vw;
     height: 35px;
     left: 226px;
     top:146px;
@@ -569,7 +567,7 @@
 
 .pic5{
     position: absolute;
-    width: 34px;
+    width: 2.41vw;
     height: 34px;
     left: 286px;
     top: 147px;
@@ -579,7 +577,7 @@
 
 .pic6{
     position: absolute;
-    width: 27px;
+    width: 1.97vw;
     height: 27px;
     left: 976px;
     top: 54px;
@@ -589,7 +587,7 @@
 .nomre{
     position: absolute;
     color: #FFFFFF;
-    width: 230px;
+    width: 16.83vw;
     height: 40px;
     left: 1025px;
     top: 59px;
@@ -603,7 +601,7 @@
 
 .pic7{
     position: absolute;
-    width: 27px;
+    width: 1.97vw;
     height: 27px;
     left: 976px;
     top: 106px;
@@ -618,7 +616,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    width: 269px;
+    width: 19.70vw;
     height: 40px;
     left: 1025px;
     top: 102px;
@@ -634,7 +632,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
-    width: 230px;
+    width: 16.83vw;
     height: 40px;
     left: 122px;
     top: 327px;
@@ -644,16 +642,15 @@
 
 @media (max-width: 1280px) {
     .altinci-section{
-        position: absolute;
-        width: 90%;
+        position: relative;
+        width: 93.70vw;
         height: 451.75px;
         left: 0px;
         margin: 0 auto;
-        top: 3122.75px;
     }
     .altinci-section-basliq{
         position: absolute;
-        width: 525.88px;
+        width: 38.49vw;
         height: 38.23px;
         top:103.67px;
         bottom: 309.85px;
@@ -667,7 +664,7 @@
     }
     .altinci-section-paraqraf1{
         position: absolute;
-        width: 98.46px;
+        width: 7.20vw;
         height: 18.53px;
         top:173.17px;
         bottom: 260.05px;
@@ -681,7 +678,7 @@
     }
     .qiymet{
         position: absolute;
-        width: 278.58px;
+        width: 20.39vw;
         height: 104.83px;
         top: 191.25px;
         bottom: 213.5px;
@@ -696,9 +693,9 @@
 
     .blok1-basliq{
         position: absolute;
-        width: 170.28px;
+        width: 12.46vw;
         height: 18.53px;
-        top:280.32px;
+        top:300.32px;
         bottom: 152.9px;
         left: 70.66px;
         right: 593.07px;
@@ -710,9 +707,9 @@
     }
     .blok1-metn{
         position: absolute;
-        width: 170.28px;
+        width: 12.46vw;
         height: 40.54px;
-        top:304.06px;
+        top:324.06px;
         bottom: 107.15px;
         left: 70.66px;
         right: 593.07px;
@@ -724,9 +721,9 @@
     }
     .blok2-basliq{
         position: absolute;
-        width: 186.49px;
+        width: 13.65vw;
         height: 18.53px;
-        top:280.32px;
+        top:300.32px;
         bottom: 152.9px;
         left: 281.47px;
         right: 366.03px;
@@ -738,9 +735,9 @@
     }
     .blok2-metn{
         position: absolute;
-        width: 170.28px;
+        width: 12.46vw;
         height: 40.54px;
-        top:304.06px;
+        top:324.06px;
         bottom: 107.15px;
         left: 281.47px;
         right: 382.25px;
@@ -751,16 +748,15 @@
         line-height: 101.38%;
     }
     .yeddinci-section{
-        position: absolute;
-        width: 90%;
+        position: relative;
+        width: 93.70vw;
         height: 225.88px;
         left: 0px;
         margin: 0 auto;
-        top: 3574.5px;
     }
     .pic1{
         position: absolute;
-        width: 66.6px;
+        width: 4.87vw;
         height: 39.38px;
         top: 28.96px;
         bottom: 157.53px;
@@ -769,7 +765,7 @@
     }
     .pic2{
         position: absolute;
-        width: 19.11px;
+        width: 1.40vw;
         height: 19.11px;
         top: 85.72px;
         right: 744.23px;
@@ -778,7 +774,7 @@
     }
     .pic3{
         position: absolute;
-        width: 18.53px;
+        width: 1.35vw;
         height: 18.53px;
         top: 85.72px;
         bottom: 121.62px;
@@ -787,7 +783,7 @@
     }
     .pic4{
         position: absolute;
-        width: 20.27px;
+        width: 1.48vw;
         height: 20.27px;
         top: 84.56px;
         bottom: 121.05px;
@@ -796,7 +792,7 @@
     }
     .pic5{
         position: absolute;
-        width: 19.69px;
+        width: 1.44vw;
         height: 19.69px;
         top: 85.14px;
         bottom: 121.05px;
@@ -805,18 +801,19 @@
     }
     .pic6{
         position: absolute;
-        width: 15.64px;
+        width: 1.14vw;
         height: 15.64px;
-        top: 31.28px;
+        top: 29.28px;
         right: 253.1px;
         bottom: 178.96px;
         left: 565.27px;
+
     }
     .nomre{
         position: absolute;
-        width: 133.21px;
+        width: 19.73vw;
         height: 23.17px;
-        top: 34.17px;
+        top: 30.17px;
         right: 107.15px;
         bottom: 168.54px;
         left: 593.65px;
@@ -828,7 +825,7 @@
     }
     .pic7{
         position: absolute;
-        width: 15.64px;
+        width: 1.14vw;
         height: 10.43px;
         top: 61.39px;
         bottom: 154.06px;
@@ -837,7 +834,7 @@
     }
     .mail{
         position: absolute;
-        width: 155.8px;
+        width: 11.40vw;
         height: 23.17px;
         top: 59.07px;
         bottom: 143.63px;
@@ -851,7 +848,7 @@
     }
     .copyright{
         position: absolute;
-        width: 133.21px;
+        width: 9.75vw;
         height: 23.17px;
         left: 70.66px;
         top: 189.39px;
@@ -869,19 +866,18 @@
 
 @media(max-width: 992px){
     .altinci-section{
-        position: absolute;
-        width: 90%;
+        position: relative;
+        width: 72.62vw;
         height: 363px;
         left: 0px;
         margin: 0 auto;
-        top: 3910px;
     }
     .altinci-section-basliq{
         position: absolute;
-        width: 224px;
+        width: 16.39vw;
         height: 63px;
         left: 43px;
-        top: 62px;
+        top: 45px;
         bottom: 238px;
         right: 108px;
         font-family: Roboto Slab;
@@ -892,7 +888,7 @@
     }
     .altinci-section-paraqraf1{
         position: absolute;
-        width: 79.22px;
+        width: 5.79vw;
         height: 14.91px;
         left: 42.85px;
         top: 147.33px;
@@ -906,7 +902,7 @@
     }
     .qiymet{
         position: absolute;
-        width: 224.13px;
+        width: 16.40vw;
         height: 84.34px;
         left: 42.85px;
         top: 161.3px;
@@ -920,9 +916,9 @@
     }
     .blok1-basliq{
         position: absolute;
-        width: 137px;
+        width: 20vw;
         height: 14.91px;
-        top: 233.53px;
+        top: 250.53px;
         left: 43.85px;
         bottom: 114.56px;
         right: 194.16px;
@@ -934,11 +930,11 @@
     }
     .blok1-metn{
         position: absolute;
-        width: 138px;
+        width: 20vw;
         height: 47px;
         left: 43px;
         right: 194px;
-        top: 253px;
+        top: 273px;
         bottom: 63px;
         font-family: Roboto slab;
         font-style: normal;
@@ -948,11 +944,11 @@
     }
     .blok2-basliq{
         position: absolute;
-        width: 151px;
+        width: 20vw;
         height: 14px;
         left: 212px;
         right: 12px;
-        top: 234px;
+        top: 250px;
         bottom: 115px;
         font-family: Roboto slab;
         font-style: normal;
@@ -962,11 +958,11 @@
     }
     .blok2-metn{
         position: absolute;
-        width: 140px;
+        width: 20vw;
         height: 38px;
         left: 212px;
         right: 23px;
-        top: 253px;
+        top: 273px;
         bottom: 72px;
         font-family: Roboto slab;
         font-style: normal;
@@ -975,16 +971,15 @@
         line-height: 101.38%;
     }
     .yeddinci-section{
-        position: absolute;
-        width: 90%;
+        position: relative;
+        width: 72.62vw;
         height: 251px;
         left: 0px;
         margin: 0 auto;
-        top: 4273px;
     }
     .pic1{
         position: absolute;
-        width: 53.59px;
+        width: 10.92vw;
         height: 31.69px;
         left: 37.85px;
         top: 23.3px;
@@ -993,7 +988,7 @@
     }
     .pic2{
         position: absolute;
-        width: 15.38px;
+        width: 1.12vw;
         height: 15.38px;
         left: 37.85px;
         top: 68.96px;
@@ -1002,7 +997,7 @@
     }
     .pic3{
         position: absolute;
-        width: 14.91px;
+        width: 1.09vw;
         height: 14.91px;
         left: 61.61px;
         top: 68.96px;
@@ -1011,7 +1006,7 @@
     }
     .pic4{
         position: absolute;
-        width: 16.31px;
+        width: 1.19vw;
         height: 16.31px;
         left: 86.31px;
         top: 68.03px;
@@ -1020,7 +1015,7 @@
     }
     .pic5{
         position: absolute;
-        width: 15.84px;
+        width: 1.15vw;
         height: 15.84px;
         left: 114.27px;
         top: 68.5px;
@@ -1029,19 +1024,19 @@
     }
     .pic6{
         position: absolute;
-        width: 12.58px;
-        height: 12.58px;
+        width: 1.92vw;
+        height: 12.56px;
         left: 38px;
-        top: 132px;
+        top: 122px;
         bottom: 106.42px;
         right: 324.42px;
     }
     .nomre{
         position: absolute;
-        width: 107.17px;
-        height: 18.64px;
+        width: 20vw;
+        height: 18.57px;
         left: 60.83px;
-        top: 134.33px;
+        top: 122.33px;
         bottom: 98.03px;
         right: 206.99px;
         font-family: Roboto slab;
@@ -1052,8 +1047,8 @@
     }
     .pic7{
         position: absolute;
-        width: 12.58px;
-        height: 8.39px;
+        width: 1.92vw;
+        height: 8.33px;
         left: 38px;
         top: 156.23px;
         bottom: 86.38px;
@@ -1061,8 +1056,8 @@
     }
     .mail{
         position: absolute;
-        width: 125.35px;
-        height: 18.64px;
+        width: 9.17vw;
+        height: 18.57px;
         left: 60.83px;
         top: 154.37px;
         bottom: 77.99px;
@@ -1075,7 +1070,7 @@
     }
     .copyright{
         position: absolute;
-        width: 141px;
+        width: 10.32vw;
         height: 19px;
         left: 38px;
         top: 222px;
@@ -1086,5 +1081,25 @@
         font-weight: 400;
         font-size: 10px;
         line-height: 101.38%;
+    }
+}
+@media (max-width: 420px){
+    .blok2-basliq{
+        width: 25vw;
+        left: 170px;
+    }
+    .blok2-metn{
+        width: 25vw;
+        left: 170px;
+    }
+    .blok1-metn{
+        width: 25vw;
+    }
+    .blok1-basliq{
+        width: 25vw;
+    }
+
+    .altinci-section-basliq{
+        width: 45vw;
     }
 }
