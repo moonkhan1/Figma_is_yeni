@@ -3,7 +3,7 @@
     padding: 0 23.889vw 0 8.403vw;
   }
   
-  #second-section #head1,
+  #second-section #head0,
   #head2 {
     font-family: "Roboto Slab", serif;
   }
@@ -14,7 +14,7 @@
     font-family: "Roboto", sans-serif;
   }
   
-  #second-section #head1 {
+  #second-section #head0 {
     width: 46.319vw;
     height: 6.458vw;
     font-weight: bold;
@@ -42,7 +42,7 @@
     width: 10.417vw;
     height: 2.708vw;
   }
-  #second-section .content #first-p {
+  #second-section .content #first-text {
     width: 15.486vw;
     height: 2.708vw;
   }
@@ -84,7 +84,7 @@
     font-size: 1.667vw;
     line-height: 150%;
   }
-  #second-section .siyahi ul li .po {
+  #second-section .siyahi ul li .sira {
     margin-right: 3.75vw;
   }
   
@@ -93,7 +93,7 @@
       margin-top: 20.267vw;
       padding: 0 7.52vw 0 9.6vw;
     }
-    #second-section #head1 {
+    #second-section #head0 {
       width: 82.88vw;
       height: 11.557vw;
       font-size: 6.933vw;
@@ -113,7 +113,7 @@
       width: 18.64vw;
       height: 4.845vw;
     }
-    #second-section .content #first-p {
+    #second-section .content #first-text {
       width: 48vw;
       height: 12.8vw;
       margin-bottom: 2.667vw;
@@ -151,7 +151,7 @@
     #second-section .siyahi ul li {
       font-size: 3.2vw;
     }
-    #second-section .siyahi ul li .po {
+    #second-section .siyahi ul li .sira {
       margin-right: 3.75vw;
     }
   }
