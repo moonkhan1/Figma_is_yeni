@@ -1,79 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.iki{
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    margin-left: 8.403vw;
-}
-.format{
+#second-section {
+    margin-top: 11.25vw;
+    padding: 0 23.889vw 0 8.403vw;
+  }
+  
+  #second-section #head1,
+  #head2 {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  #second-section .content div h4,
+  .content div p,
+  .siyahi ul li {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #second-section #head1 {
     width: 46.319vw;
     height: 6.458vw;
-    margin-left: 0;
-    margin-top: 11.25vw;
-}
-.dorduncu-hisse-1{
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3.819vw;
-}
-.cedvel{
-    display: flex; 
-    margin-top: 6.181vw;
-}
-.divsol{
-    margin-right: 8.472vw;
-}
-.divorta{
-    margin-right: 7.847vw;
-}
-.dorduncu-hisse-sol{
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
-    margin: 0;
+    line-height: 101.38%;
+    margin-bottom: 6.181vw;
+  }
+  
+  #second-section .content {
+    display: flex;
+    margin-bottom: 12.431vw;
+  }
+  #second-section .content div h4 {
+    font-size: 1.736vw;
+    font-weight: bold;
+    line-height: 130%;
+    color: #1e4681;
+  }
+  #second-section .content div p {
+    font-size: 1.25vw;
+    line-height: 130%;
+  }
+  #second-section .content #first-header {
+    margin-right: 13.542vw;
     width: 10.417vw;
     height: 2.708vw;
-}
-.dorduncu-hisse-metn1{
-    margin: 0;
+  }
+  #second-section .content #first-p {
     width: 15.486vw;
     height: 2.708vw;
-}
-.dorduncu-hisse-orta{
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
-    margin: 0;
+  }
+  #second-section .content #second-header {
     width: 14.861vw;
     height: 2.708vw;
-}
-.dorduncu-hisse-metn2{
-    margin: 0;
+    margin-right: 11.806vw;
+  }
+  
+  #second-section .content #second-p {
     width: 18.819vw;
     height: 7.569vw;
-}
-.dorduncu-hisse-sag{
-    font-weight: 700;
-    font-size: 1.736vw;
-    color: #1E4681;
-    margin:0;
+  }
+  
+  #second-section .content #third-header {
     width: 10.417vw;
     height: 2.708vw;
-}
-.dorduncu-hisse-metn3{
-    margin:0;
+  }
+  #second-section .content #third-p {
     width: 17.014vw;
     height: 2.708vw;
-}
-.sonluq{
+  }
+  
+  #second-section #head2 {
     width: 46.319vw;
     height: 6.458vw;
-    margin-top: 17.292vw;
-}
-.dorduncu-hisse-2{
-    font-weight: 700;
-    font-size: 55px;
-}
-.siyahi{
+    margin-bottom: 1.458vw;
+    font-size: 3.819vw;
+    line-height: 101.38%;
+  }
+  
+  #second-section .siyahi {
     width: 45.972vw;
     height: 25.972vw;
-    margin-top: 1.458vw;
-}
+    margin-left: 1.181vw;
+  }
+  #second-section .siyahi ul li {
+    list-style-type: disc;
+    font-size: 1.667vw;
+    line-height: 150%;
+  }
+  #second-section .siyahi ul li .po {
+    margin-right: 3.75vw;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    #second-section {
+      margin-top: 20.267vw;
+      padding: 0 7.52vw 0 9.6vw;
+    }
+    #second-section #head1 {
+      width: 82.88vw;
+      height: 11.557vw;
+      font-size: 6.933vw;
+      margin-bottom: 4.443vw;
+    }
+    #second-section .content {
+      flex-direction: column;
+      margin-bottom: 19.467vw;
+    }
+    #second-section .content div h4 {
+      font-size: 3.2vw;
+    }
+    #second-section .content div p {
+      font-size: 2.667vw;
+    }
+    #second-section .content #first-header {
+      width: 18.64vw;
+      height: 4.845vw;
+    }
+    #second-section .content #first-p {
+      width: 48vw;
+      height: 12.8vw;
+      margin-bottom: 2.667vw;
+    }
+    #second-section .content #second-header {
+      width: 26.592vw;
+      height: 4.845vw;
+    }
+  
+    #second-section .content #second-p {
+      width: 44vw;
+      height: 13.6vw;
+      margin-bottom: 5.067vw;
+    }
+  
+    #second-section .content #third-header {
+      width: 18.64vw;
+      height: 4.845vw;
+    }
+    #second-section .content #third-p {
+      width: 42.4vw;
+      height: 8.267vw;
+    }
+    #second-section #head2 {
+      height: 11.557vw;
+      font-size: 6.933vw;
+      margin-bottom: 3.909vw;
+    }
+  
+    #second-section .siyahi {
+      width: 79.733vw;
+      height: 46.4vw;
+      margin-left: 2.133vw;
+    }
+    #second-section .siyahi ul li {
+      font-size: 3.2vw;
+    }
+    #second-section .siyahi ul li .po {
+      margin-right: 3.75vw;
+    }
+  }
